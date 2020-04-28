@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+</head>
+<body>
+    <section>
+        <form action="home.html" method="get">
+            <fieldset>
+                <legend>Datos básicos</legend>
+                <label for="a">Nombres:</label><br>
+                <input type="text" id="caja1" class="cajita" name="nombres" required><br>
+                <label for="a">Descripcion:</label><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                <label for="a">Foto</label>
+                <input type="file" name="archivo" id="archivo">
+                <input type="button" value="Elegir.."><br>
+                <input type="checkbox" id="caja2" class="cajita">Añadir contador de visitas<br>
+            </fieldset>
+            <fieldset>
+                <legend>Datos económicos</legend>
+                <label for="a">Precio</label>
+                <input type="number" id="caja3" class="cajita" name="numero">
+                <label for="a">$</label><br> 
+                <label for="a">Impuestos</label>
+                <select name="n" id="n">
+                    <option value="0"></option>
+                    <option value="1">4%</option>
+                    <option value="2">7%</option>
+                    <option value="3">16%</option>
+                    <option value="4">25%</option>
+                    <br>
+                    <label for="a">Promocion</label><br>
+                    <input type="radio" id="caja4" class="cajita">Ninguno<br>
+                    <input type="radio" id="caja4" class="cajita">Transporte gratuito<br>
+                    <input type="radio" id="caja4" class="cajita">descuento 5%<br>
+
+
+                </select>
+            
+
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
